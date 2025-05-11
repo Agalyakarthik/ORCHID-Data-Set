@@ -2,7 +2,7 @@
 Organ Retrieval and Collection of Health Information for Donation (ORCHID)
 
 Project Overview
-This repository contains data analysis for improving the organ procurement process in the United States. By analyzing data from six Organ Procurement Organizations (OPOs), this project aims to identify actionable changes that can increase both the efficiency and equity of organ donation, ultimately expanding transplant opportunities for patients in need.
+This repository contains Exploratory data analysis of the organ procurement process in the United States. By analyzing data from six Organ Procurement Organizations (OPOs), this project aims to understand the gap in the organ procurement process. 
 
 Why This Matters
 More than 100,000 patients are currently waiting for organ transplants in the United States. Improvements to the organ procurement process can significantly increase the supply of this scarce public resource and improve health outcomes for those waiting.
@@ -13,7 +13,6 @@ Data Source
 Collection period: January 1, 2015 to December 31, 2021
 Data collected from health information technology systems used by six OPOs
 Dataset includes 133,101 deceased donor referrals across 13 states
-Coverage by OPO:
 
 OPO 1: 32,148 potential donors
 OPO 2: 16,144 potential donors
@@ -64,31 +63,9 @@ Process timestamps (next-of-kin approach, authorization, procurement)
 Time of death (asystole and brain death if applicable)
 Outcomes (approached, authorized, procured, transplanted)
 
-OPO Events
-
-ChemistryEvents: Lab test results including kidney panel, liver function tests, electrolyte panel
-
-CBCEvents: Complete blood count test results
-
-ABGEvents: Arterial blood gas measurements with ventilator settings
-
-SerologyEvents: Testing for donation-relevant antigens and antibodies (HIV, hepatitis C, etc.)
-
-CultureEvents: Infection test results for blood, urine, and other fluids
-
-HemoEvents: Hemodynamic measurements (blood pressure, heart rate)
-
-FluidBalanceEvents: Fluid intake, urine output
-
 OPO Deaths
 
 Details on patient deaths and donation outcomes
-
-Project Goals
-This repository aims to:
-
-Identify opportunities to improve current organ procurement practices
-Improve both efficiency and equity in the organ donation process
 
 Note
 There is a data discrepancy where 27 records show Approached=False but Authorized=True.
