@@ -67,11 +67,17 @@ Outcomes (approached, authorized, procured, transplanted)
 OPO Events
 
 ChemistryEvents: Lab test results including kidney panel, liver function tests, electrolyte panel
+
 CBCEvents: Complete blood count test results
+
 ABGEvents: Arterial blood gas measurements with ventilator settings
+
 SerologyEvents: Testing for donation-relevant antigens and antibodies (HIV, hepatitis C, etc.)
+
 CultureEvents: Infection test results for blood, urine, and other fluids
+
 HemoEvents: Hemodynamic measurements (blood pressure, heart rate)
+
 FluidBalanceEvents: Fluid intake, urine output
 
 OPO Deaths
