@@ -2,13 +2,13 @@
 Organ Retrieval and Collection of Health Information for Donation (ORCHID)
 (https://physionet.org/content/orchid/2.0.0/)
 
-###Project Overview
+### Project Overview
 This repository contains Exploratory data analysis of the organ procurement process in the United States. By analyzing data from six Organ Procurement Organizations (OPOs), this project aims to understand the gap in the organ procurement process. 
 
-###Why This Matters
+### Why This Matters
 More than 100,000 patients are currently waiting for organ transplants in the United States. Improvements to the organ procurement process can significantly increase the supply of this scarce public resource and improve health outcomes for those waiting.
 
-###Data Source 
+### Data Source 
 Collection period: January 1, 2015 to December 31, 2021
 Data collected from health information technology systems used by six OPOs
 Dataset includes 133,101 deceased donor referrals across 13 states
@@ -26,7 +26,6 @@ The dataset tracks six critical steps in the organ procurement process:
 Referral (133,101 patients)
 
 Hospital refers near-death patient to local OPO
-
 
 Evaluation
 
