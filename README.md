@@ -1,15 +1,14 @@
 # ORCHID-Data-Set
 Organ Retrieval and Collection of Health Information for Donation (ORCHID)
+(https://physionet.org/content/orchid/2.0.0/)
 
-Project Overview
+###Project Overview
 This repository contains Exploratory data analysis of the organ procurement process in the United States. By analyzing data from six Organ Procurement Organizations (OPOs), this project aims to understand the gap in the organ procurement process. 
 
-Why This Matters
+###Why This Matters
 More than 100,000 patients are currently waiting for organ transplants in the United States. Improvements to the organ procurement process can significantly increase the supply of this scarce public resource and improve health outcomes for those waiting.
 
-Dataset Description
-Data Source
-
+###Data Source 
 Collection period: January 1, 2015 to December 31, 2021
 Data collected from health information technology systems used by six OPOs
 Dataset includes 133,101 deceased donor referrals across 13 states
@@ -33,21 +32,17 @@ Evaluation
 
 OPO assesses patient's suitability for donation
 
-
 Approach (19,551 patients, 14.68%)
 
 If medically suitable, OPO representative approaches next-of-kin for consent
-
 
 Authorization (11,989 patients, 9%)
 
 Next-of-kin provides consent for donation
 
-
 Procurement (9,502 patients, 7.13%)
 
 OPO procures viable organs and offers them to patients on the national transplant waitlist
-
 
 Transplant (8,972 patients, 6.7%)
 
@@ -56,13 +51,11 @@ OPO coordinates logistics to transport organs to transplant centers
 Data Tables
 All tables are linked via a unique PatientID and fall into three categories:
 OPO Referrals
-
 Patient demographics
 Cause of death
 Process timestamps (next-of-kin approach, authorization, procurement)
 Time of death (asystole and brain death if applicable)
 Outcomes (approached, authorized, procured, transplanted)
-
 OPO Deaths
 
 Details on patient deaths and donation outcomes
